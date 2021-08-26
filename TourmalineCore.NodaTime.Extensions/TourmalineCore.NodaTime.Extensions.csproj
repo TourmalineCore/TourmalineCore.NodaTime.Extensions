@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>TourmalineCore.NodaTime.Extensions</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Oleg Klyavlin, Max Koval, Alexandr Shinkarev</Authors>
+    <Company>Tourmaline Core</Company>
+    <Product>NodaTime</Product>
+    <Description>Extensions for NodaTime</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>NodaTime, Period, Extensions, .Net Core</PackageTags>
+    <RepositoryUrl>https://github.com/TourmalineCore/TourmalineCore.NodaTime.Extensions/tree/master/TourmalineCore.NodaTime.Extensions</RepositoryUrl>
+    <PackageIcon>logo.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <ProjectUrl>https://github.com/TourmalineCore/TourmalineCore.NodaTime.Extensions</ProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Utils\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\assets\logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NodaTime" Version="3.0.5" />
+  </ItemGroup>
+</Project>
