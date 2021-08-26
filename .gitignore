@@ -1,0 +1,14 @@
+# The description of ignoring files in the tradehack billing project
+
+/node_modules
+
+# misc
+bin/
+obj/
+*/logs/
+.vs
+*.sln.DotSettings.user
+*.csproj.user
+
+# storage for pgadmin
+*/pgadmin/sessions/
