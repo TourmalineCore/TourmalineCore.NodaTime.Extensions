@@ -9,7 +9,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 1. Create an [issue](https://github.com/TourmalineCore/TourmalineCore.NodaTime.Extensions/issues)
 2. To describe a comment to a commit, we use a [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
-3. If you using ReSharper you should press ctrl+alt+f and select NodaTimeExtensions format
+3. If you using ReSharper you should press ctrl+alt+f and select TourmalineCore.NodaTime.Extensions format
 4. Update README.md with details of the interface changes, new function descriptions with examples, and so on
 5. In the commit message, you need to indicate the ticket number in the issues. For example, chore(feature_name): #issue_id: description
 6. The versioning scheme we use is [SemVer](http://semver.org/)
